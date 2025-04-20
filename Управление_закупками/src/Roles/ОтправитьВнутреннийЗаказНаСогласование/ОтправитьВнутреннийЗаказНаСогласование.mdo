@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c4f5a03-ac3a-4b41-88a6-f2f4169f58b1">
+  <name>ОтправитьВнутреннийЗаказНаСогласование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправить внутренний заказ на согласование</value>
+  </synonym>
+</mdclass:Role>

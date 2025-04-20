@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="777789a1-5872-4c0a-956c-c226a8a50399">
+  <producedTypes>
+    <refType typeId="d0077c44-f8d8-4482-905c-12d8b54d4afc" valueTypeId="f84a11f4-a785-4f03-a2d3-fbaec0b0fc7a"/>
+    <listType typeId="118c2888-7915-47af-b562-6e5d961a1be9" valueTypeId="533b7bad-0fa4-43f8-8c8a-c94c4c666104"/>
+    <managerType typeId="393c640d-3a2d-45f0-aa76-232c8a8bbb2b" valueTypeId="3b638360-f945-4ef3-8e1a-2621a8b9fbf0"/>
+  </producedTypes>
+  <name>ВидДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид документа</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2478e885-263c-45ba-8406-ed23bed5afc6">
+    <name>АктОтбраковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт отбраковки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1112e23-479a-4b8a-809f-46ca1ea97c27">
+    <name>АктРевизииИОтбраковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт ревизии и отбраковки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d9c19943-a456-43f8-94c4-29e378bb34a1">
+    <name>АктТехническогоСостоянияОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт технического состояния оборудования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="858df0af-026a-4d25-8587-5e5a9feb0197">
+    <name>ВедомостьОбъемаРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВОР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01f0fbd4-94f3-4bfb-88f2-2cae4c3a2f80">
+    <name>ДефектнаяВедомость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дефектная ведомость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b51c7436-6aea-4604-910d-3595fbe43942">
+    <name>ДополнительнаяДефектнаяВедомость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп. дефектная ведомость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="59e70fce-3766-4123-893f-15037b037277">
+    <name>ППР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ППР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d7ae58bf-68d5-47fb-961b-3e25c00a0b83">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a72ba078-6b01-4034-9f90-ed3e30fec0ea">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2fc2eb87-05dc-4ba2-b5c7-04e5ac274e2e">
+    <name>СобственныеНужды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собственные нужды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d1596fe-5cbf-4f5c-9105-fb2d5a5e8c69">
+    <name>СлужебнаяЗаписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебная записка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80c4ac15-14af-418e-9d1d-212ede53e850">
+  <producedTypes>
+    <selectionType typeId="227f3d2b-d71b-4a9b-9ff8-6bcab6ec5702" valueTypeId="8fd6daca-f275-4bf9-87eb-6b74a33daedd"/>
+    <listType typeId="59106bb8-21c4-421b-b7b4-e8d11ebeb040" valueTypeId="9c43baa2-43ac-4c45-b0b1-e9291e9564a6"/>
+    <managerType typeId="1ed9b069-3e01-4e21-baaa-01f3b9423ce0" valueTypeId="ee6551d6-5c09-416d-9063-7b04d2698228"/>
+    <recordSetType typeId="25696b2f-04d0-4a8a-a982-69a58dafd78b" valueTypeId="61bee75a-a95b-4c15-a9c1-1a4d0d5919f1"/>
+    <recordKeyType typeId="8e61bf58-fdfb-4f74-b08f-6c7d4667d35d" valueTypeId="6261b558-3344-405a-bc2c-bd4a7699fa0d"/>
+    <recordType typeId="34e249f3-6d4d-4d22-9d6b-0310a2e7b92e" valueTypeId="4dbae097-e851-43a9-bb7b-456056731de7"/>
+    <recordManagerType typeId="1378857f-48a8-4805-aff0-404390671a9c" valueTypeId="9dd594f0-010c-4c2b-994b-862330e78b48"/>
+  </producedTypes>
+  <name>КомментарийКПозицииВнутреннегоЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комментарий к позиции внутреннего заказа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a96cf015-97c8-4f9b-98e3-0d3685adf7c5">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>400</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="1541a2f2-f833-4a52-b89d-780ecd147b22">
+    <name>ВнутреннийЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВнутреннийЗаказ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="826acc23-d871-44a7-8097-a1749ffeb5d7">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="05c58b13-f19b-4d52-9124-9d9b72038a90">
+    <name>ДополнительныеХарактеристикиНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные характеристики номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДополнительныеХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5c2fc39e-3372-4347-a478-3b7ee2ac4e50">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассификаторЕдиницИзмерений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

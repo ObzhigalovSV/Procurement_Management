@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd596c1b-2818-4d93-95de-ee41b504a576">
+  <producedTypes>
+    <selectionType typeId="ca4f8823-7b44-4793-93b1-7f8320390ace" valueTypeId="10160d76-7c0c-451b-a1b5-a305fd8cf407"/>
+    <listType typeId="22ec9ff4-d095-4067-b369-3c3e595b912f" valueTypeId="2ba6134f-b588-4b47-8709-84530a4f7ff3"/>
+    <managerType typeId="9416ae4f-49f0-4374-8e69-17e0075d6c83" valueTypeId="dcaecb8c-2111-4af9-98d5-e6206f8755d7"/>
+    <recordSetType typeId="155e6f17-3c1d-4846-92ba-001f18970811" valueTypeId="f8f30e25-7ef8-45ea-9c21-f857d8f9c797"/>
+    <recordKeyType typeId="c8c2719d-80c7-4128-91fc-7fe29a0de768" valueTypeId="56133a4e-bfd3-43ff-9ac2-0ced58c5a426"/>
+    <recordType typeId="d9fd31ae-d216-4825-9b2c-7fd5a68ad2dc" valueTypeId="dd33f59d-6df7-49b6-bd88-4d7c88f83613"/>
+  </producedTypes>
+  <name>ОстаткиНаСкладах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки на складах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="66717573-bac9-4f16-be65-f7353bf0c97d">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Количество</types>
+    </type>
+    <markNegatives>true</markNegatives>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="9741132d-33a3-440a-852d-c00369ac8205">
+    <name>КоличествоВнутреннегоЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество внутреннего заказа</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Количество</types>
+    </type>
+    <markNegatives>true</markNegatives>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="c8c28706-adca-4809-bb2c-2489d7ffbbd5">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склад</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b3c9add7-5eef-47d1-b060-fb32ff01874f">
+    <name>НоменклатураПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура поставщика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d6116e7b-312f-4f7a-a184-a7daee85bfd5">
+    <name>ЕдиницаИзмеренияПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения поставщика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассификаторЕдиницИзмерений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="517d3958-f966-49b2-a293-cf1723766215">
+    <name>Партия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПриходнаяНакладная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b3ecb83f-cb5b-47b5-8ff6-faf135927b9b">
+    <name>ВнутреннийЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВнутреннийЗаказ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="be45d07d-32ef-420b-b040-39e815fecaf4">
+    <name>ДополнительныеХарактеристикиНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные характеристики номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДополнительныеХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="81254a26-5c81-46cd-a552-457e571baa4f">
+    <name>НоменклатураВнутреннегоЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура внутреннего заказа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5ec6401d-9092-414c-8e82-d2afd5617c0b">
+    <name>ЕдиницаИзмеренияВнутреннегоЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения внутреннего заказа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассификаторЕдиницИзмерений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

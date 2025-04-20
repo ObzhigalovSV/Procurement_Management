@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e1a227e-1e8d-47fe-9795-dceac65b87d6">
+  <producedTypes>
+    <objectType typeId="f61401c5-cd2f-433e-92c2-6f47881b548b" valueTypeId="87b116e1-4551-4cbc-baad-edfc0cd479bf"/>
+    <refType typeId="aee045d1-3c64-4ccf-ac6a-afde7d62a2fc" valueTypeId="0ed7ced0-e962-4c52-bd89-813a81b0ec34"/>
+    <selectionType typeId="0b7b34fd-16f1-4f44-8a1c-b2950983a989" valueTypeId="a212361f-6628-42fe-8c78-b31020687367"/>
+    <listType typeId="1249d64c-7444-458a-ba82-a324f90bcf25" valueTypeId="ed037fb1-3e0c-4c42-8465-f068ea80cb75"/>
+    <managerType typeId="9aef325c-625d-4028-9ff2-577e939621ce" valueTypeId="850768d5-4f1b-497c-8807-d4bbc8811d9b"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Должности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Должности.StandardAttribute.Code</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="5b9654ec-7870-4c21-be93-a489fb05c743">
+      <name>ГлавныйИнженер</name>
+      <description>Главный инженер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="583cb3a2-4f87-4d88-9a3a-966a7e10268a">
+      <name>ГлавныйЭнергетик</name>
+      <description>Главный энергетик</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="5e2d6054-3551-4bbf-b06b-6c0a8cb937b1">
+      <name>ЗаместительРуководителяОМТС</name>
+      <description>Заместитель руководителя ОМТС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="d54b8e02-e1ed-4986-ad97-42cefe4652a1">
+      <name>ЗаместительРуководителяПТО</name>
+      <description>Заместитель руководителя ПТО</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="ddff655d-5ab8-4a65-a6f8-c6ef276d84b9">
+      <name>ЗаместительРуководителяСДО</name>
+      <description>Заместитель руководителя СДО</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="7118915a-0bdf-4826-be43-504ff410fc86">
+      <name>ИнженерОМТС</name>
+      <description>Инженер ОМТС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="75e39161-f30e-41e7-a20c-750284f61d85">
+      <name>ИнженерПТО</name>
+      <description>Инженер ПТО</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="1469c506-6035-42f6-a018-8b736f92a385">
+      <name>ИнженерСДО</name>
+      <description>Инженер СДО</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="b4444aa3-05a6-4ab4-a046-9ed3a026ee09">
+      <name>РуководительОМТС</name>
+      <description>Руководитель ОМТС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="48386289-fad6-4dd5-9c42-1129a14abd33">
+      <name>РуководительПроектов</name>
+      <description>Руководитель проектов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="cc5e4f59-74e0-4434-806f-746f694baa45">
+      <name>РуководительПТО</name>
+      <description>Руководитель ПТО</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="56559dce-a22f-4cda-84e7-5c6bc9300619">
+      <name>РуководительСДО</name>
+      <description>Руководитель СДО</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Должности.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Должности.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="2f945de4-0998-497a-a026-c0ff7d0212e0">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Подразделение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6a681ae4-5bcf-47cc-9508-6ee7dcc158bc">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4443073a-4136-40ff-a84c-ea07cc31fde8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

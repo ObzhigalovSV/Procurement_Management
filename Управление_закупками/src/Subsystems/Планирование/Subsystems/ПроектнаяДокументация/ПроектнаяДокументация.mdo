@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f42078ba-0630-442d-a38d-4023bdc3c47b">
+  <name>ПроектнаяДокументация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проектная документация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.БазовыеДокументы</content>
+  <content>Catalog.ОбъектыСтроительства</content>
+  <content>Catalog.РабочаяДокументация</content>
+  <parentSubsystem>Subsystem.Планирование</parentSubsystem>
+</mdclass:Subsystem>

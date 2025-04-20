@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9ade133-dcb4-4ecc-88a1-ed4f15392dfd">
+  <producedTypes>
+    <selectionType typeId="c71abead-6749-46a3-8313-f93ed8d216bb" valueTypeId="3cb552da-d10d-4ab7-bc81-2fa2d1d08efe"/>
+    <listType typeId="552a218a-7387-453f-bf5a-c914c7d875ef" valueTypeId="13e5c9bd-c76c-439d-acc5-e432fe9d6b82"/>
+    <managerType typeId="c99112da-a96b-4fff-8728-03019c64df11" valueTypeId="5ff5bb8d-af3a-4bfd-a739-10846e10a1c4"/>
+    <recordSetType typeId="2028127f-ed7f-4bed-adaf-cf9ea6462cc8" valueTypeId="7a56c829-f4b9-4654-8681-f41a8f0192cd"/>
+    <recordKeyType typeId="6dabf31b-2c1f-4644-81cd-1f09eb947ff9" valueTypeId="53f66967-d71f-4740-81a7-bc18c1cff754"/>
+    <recordType typeId="f2d4c912-f4ec-44d8-92cd-8172314071ee" valueTypeId="10592df3-f3a5-4d64-8c09-c55e694b66dd"/>
+    <recordManagerType typeId="6f8be56a-cc6e-4abe-99ce-1c50b7c4d530" valueTypeId="b266ed00-2694-457b-a2b4-438c44afa6a6"/>
+  </producedTypes>
+  <name>КомментарийКЗаголовкуВнутреннегоЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комментарий к заголовку внутреннего заказа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="eac69d89-0579-4cc9-80b3-7de2eb40a956">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>420</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="d42c4324-d1e2-4d0c-b71a-d14138f681e4">
+    <name>ВнутреннийЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВнутреннийЗаказ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

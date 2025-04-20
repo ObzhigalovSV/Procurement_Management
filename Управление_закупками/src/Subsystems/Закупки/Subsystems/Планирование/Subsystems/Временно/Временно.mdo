@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bad272a7-1f00-46af-baff-ad94c2fba144">
+  <name>Временно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Временно</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.ОстатокПотребностиПоВнутреннимЗаказам</content>
+  <content>InformationRegister.РаспределениеПоИсполнителямОМТС</content>
+  <content>Task.ЗадачиИсполнителейПТО</content>
+  <content>BusinessProcess.ПередачаЗаказаВОМТС</content>
+  <content>Task.ЗадачиИсполнителейОМТС</content>
+  <content>InformationRegister.КомментарийКЗаголовкуВнутреннегоЗаказа</content>
+  <parentSubsystem>Subsystem.Закупки.Subsystem.Планирование</parentSubsystem>
+</mdclass:Subsystem>

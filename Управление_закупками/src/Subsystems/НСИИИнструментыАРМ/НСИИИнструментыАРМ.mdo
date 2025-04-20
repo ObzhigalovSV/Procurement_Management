@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f600f59-9c28-47ef-99ac-989534004831">
+  <name>НСИИИнструментыАРМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИ и инструменты АРМ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Parameters</picture>
+  </picture>
+  <content>DataProcessor.УдалениеПомеченныхОбъектов</content>
+  <content>DataProcessor.ЗагрузкаДанныхИзФайла</content>
+  <content>DataProcessor.ПоискИУдалениеДублей</content>
+  <subsystems>Справочники</subsystems>
+</mdclass:Subsystem>

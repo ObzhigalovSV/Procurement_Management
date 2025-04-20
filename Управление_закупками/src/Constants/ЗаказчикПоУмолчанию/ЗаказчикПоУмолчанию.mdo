@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d73b0eff-c610-435c-abfa-d98cc46efb61">
+  <producedTypes>
+    <managerType typeId="2da098aa-0f2a-4d6c-b35a-5fda8d55bf91" valueTypeId="d11de21b-15d9-4833-9073-f126a6957593"/>
+    <valueManagerType typeId="15a628e8-a531-4dfb-b04b-d5280fc80a99" valueTypeId="30d7cd2b-9911-4e18-a31c-f60b4f685ce6"/>
+    <valueKeyType typeId="c5d0f94c-73cd-4cf7-a43b-7b5d90dc5c0f" valueTypeId="cc8277d1-a193-4f8c-a2b4-1d67cade972f"/>
+  </producedTypes>
+  <name>ЗаказчикПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказчик по умолчанию</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

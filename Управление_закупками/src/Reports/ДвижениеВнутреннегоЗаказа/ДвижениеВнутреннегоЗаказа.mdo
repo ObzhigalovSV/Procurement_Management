@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2a49cf5-56a5-46ca-8f9f-73b5752b66fc">
+  <producedTypes>
+    <objectType typeId="982ce141-db2c-4283-bfba-542ddd49950f" valueTypeId="0bb55b2b-6665-4894-a91e-db8115e5493b"/>
+    <managerType typeId="7cf61b8c-ee22-4960-8b08-cad31471499b" valueTypeId="c3e93e79-8c0e-472f-ad49-76bd8112e858"/>
+  </producedTypes>
+  <name>ДвижениеВнутреннегоЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движение внутреннего заказа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ДвижениеВнутреннегоЗаказа.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="f6755798-94fe-4a3e-9feb-14b48d0ae326">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

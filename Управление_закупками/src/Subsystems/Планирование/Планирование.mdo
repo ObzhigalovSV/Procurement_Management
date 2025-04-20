@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e54d7097-ac44-4888-aa7b-f6eb87c430aa">
+  <name>Планирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделРаботы</picture>
+  </picture>
+  <subsystems>ПроектнаяДокументация</subsystems>
+  <subsystems>РаботыИИсполнители</subsystems>
+  <subsystems>Справочники</subsystems>
+  <subsystems>ЗаявкиДляОМТС</subsystems>
+  <subsystems>ЗадачиПТО</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8d0979d-e0be-465a-b300-7f40620f2790">
+  <producedTypes>
+    <objectType typeId="00e50e63-530f-4579-98a8-363f6435f992" valueTypeId="571f0c4f-f60a-4076-9dd9-946968070727"/>
+    <refType typeId="655d5d34-079b-4069-9fe6-4c4dc1726178" valueTypeId="c1d4b3fd-7f5c-43c6-97b5-4bc15abf0076"/>
+    <selectionType typeId="fd610187-f3b0-4480-9fa0-dd81c78f267b" valueTypeId="5c8be5ab-20d8-42ea-8d89-a270f683c3da"/>
+    <listType typeId="09e7c034-ec3b-4bf8-9e50-c6f1199d721b" valueTypeId="bdc89791-ff05-461a-b91b-a897a5b15a06"/>
+    <managerType typeId="9c3c6cb1-81d8-4b1c-8044-75d1eef3534e" valueTypeId="dbad2435-7075-4716-bb84-218907eb5f73"/>
+  </producedTypes>
+  <name>РасходнаяНакладная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расходная накладная</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РасходнаяНакладная.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Расходные накладные</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ОстаткиНаСкладах</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

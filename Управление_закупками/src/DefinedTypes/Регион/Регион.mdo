@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7490b5e-9d18-4bc4-acd0-d06a9b91cdaf">
+  <producedTypes>
+    <containerType typeId="f1e5536e-e61d-4a62-974c-46774a40a9fe" valueTypeId="a43e6ea2-4d66-427a-8ea6-b5e04f0b2cd6"/>
+  </producedTypes>
+  <name>Регион</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регион</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Регионы</types>
+  </type>
+</mdclass:DefinedType>

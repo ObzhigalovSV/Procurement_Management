@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54958747-01c9-43d5-9b1c-d2c3ce7ed315">
+  <producedTypes>
+    <managerType typeId="2fc8d398-9e93-47f4-93b9-4f7696137a84" valueTypeId="7df9444a-5303-4607-b6b4-745524ad9795"/>
+    <valueManagerType typeId="d16b6b97-4bac-4c95-8dc7-9ea56fb28e15" valueTypeId="c55e8c5b-5ab9-40d3-bde6-5fea63952703"/>
+    <valueKeyType typeId="29aab273-2eb9-4a22-b381-d3f033c96249" valueTypeId="15871da0-ce3f-4055-a83c-b39b780cad59"/>
+  </producedTypes>
+  <name>СтавкаНДСПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставка НДС по умолчанию</value>
+  </synonym>
+  <type>
+    <types>EnumRef.СтавкаНДС</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

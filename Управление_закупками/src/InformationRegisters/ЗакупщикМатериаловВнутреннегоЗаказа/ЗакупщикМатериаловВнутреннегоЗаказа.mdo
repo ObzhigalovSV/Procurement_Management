@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa432f06-8663-444c-870d-78da30400d74">
+  <producedTypes>
+    <selectionType typeId="21600103-f4da-4da2-85e8-37a8e63b2a70" valueTypeId="8e87c075-221c-4379-a060-a65b85ecd962"/>
+    <listType typeId="ed811ba5-6aac-415f-80a1-76a6d2d53861" valueTypeId="8f847409-40b6-4476-b8c3-2bf08608cf68"/>
+    <managerType typeId="ed947c48-9444-4c67-baee-c24ebbe0b4a3" valueTypeId="05d10fd5-9a18-4882-bc8f-e7c4d057b243"/>
+    <recordSetType typeId="fd868d1a-aa4a-48d1-b3d3-cb83ec2b1f50" valueTypeId="0d0c501b-d390-40d8-bc6e-05dbc838961c"/>
+    <recordKeyType typeId="8f07f633-da80-4472-a93d-a3c2e45e29e2" valueTypeId="ae05d514-54cc-43b9-b987-241be5877994"/>
+    <recordType typeId="c637b597-22d1-4ed3-a882-da1338d8dbf5" valueTypeId="32788a77-b18a-438b-85c8-3ebeef711060"/>
+    <recordManagerType typeId="9b58661b-6390-4a72-9cba-a5292f724767" valueTypeId="689cc8db-a7a4-4d3a-b6d6-acc1b77355e8"/>
+  </producedTypes>
+  <name>ЗакупщикМатериаловВнутреннегоЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закупщик материалов внутреннего заказа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="86813a80-0a13-4a72-a3fb-44588ab28af3">
+    <name>ЗакупщикМатериалов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закупщик материалов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="45563d75-6b0b-4ec2-9464-392e68063e02">
+    <name>ВнутреннийЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВнутреннийЗаказ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

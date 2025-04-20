@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b5d263c-6929-41b9-bf30-e26906e7ecec">
+  <producedTypes>
+    <objectType typeId="03d74040-ca84-46dc-8996-10c7805acac4" valueTypeId="8e1b8fed-32e4-40af-ad79-087a39ae3758"/>
+    <managerType typeId="b702c9e8-650d-4d81-9eb9-8efec2160121" valueTypeId="7bec66b2-ad75-40a8-8c28-c1153ffa6179"/>
+  </producedTypes>
+  <name>ПотребностьПоЗаявкамВРазрезеНоменклатурныхГрупп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Потребность по заявкам в разрезе номенклатурных групп</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ПотребностьПоЗаявкамВРазрезеНоменклатурныхГрупп.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПотребностьПоЗаявкамВРазрезеНоменклатурныхГрупп.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="e5914814-4654-4439-8574-a7f1e7695c84">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="604a6847-e91f-48a7-9d86-57e0406c8a05">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

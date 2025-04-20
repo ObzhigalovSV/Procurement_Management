@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eeb741d3-534b-406b-8e1a-7e1802248f0b">
+  <name>РаботыИИсполнители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работы и исполнители</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.РуководителиПроектов</content>
+  <content>Document.ЛинейныйИсполнитель</content>
+  <parentSubsystem>Subsystem.Планирование</parentSubsystem>
+</mdclass:Subsystem>

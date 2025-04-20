@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8253876e-9f4c-4976-800e-d70671aa4d01">
+  <name>РегистрыВременно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры временно</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.ОстатокПотребностиПоВнутреннимЗаказам</content>
+  <content>AccumulationRegister.ОстатокТовараПоСчету</content>
+  <content>AccumulationRegister.ОстаткиНаСкладах</content>
+  <content>InformationRegister.ДатаПоставкиМатериаловПоСчетуКонтрагента</content>
+  <parentSubsystem>Subsystem.Закупки</parentSubsystem>
+</mdclass:Subsystem>

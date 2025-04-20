@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetUnion">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВнутреннийЗаказ</dataPath>
+			<field>ВнутреннийЗаказ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Внутренний заказ</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:DocumentRef.ВнутреннийЗаказ</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Номенклатура</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЕдиницаИзмерения</dataPath>
+			<field>ЕдиницаИзмерения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Единица измерения</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.КлассификаторЕдиницИзмерений</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeId>bd90d581-2f79-486e-95e6-b05a41eb5e92</v8:TypeId>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДополнительныеХарактеристикиНоменклатуры</dataPath>
+			<field>ДополнительныеХарактеристикиНоменклатуры</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные характеристики номенклатуры</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.ДополнительныеХарактеристикиНоменклатуры</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НоменклатураПоставщика</dataPath>
+			<field>НоменклатураПоставщика</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетКонтрагента</dataPath>
+			<field>СчетКонтрагента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЕдиницаИзмеренияПоставщика</dataPath>
+			<field>ЕдиницаИзмеренияПоставщика</field>
+		</field>
+		<item xsi:type="DataSetObject">
+			<name>НаборДанных1</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВнутреннийЗаказ</dataPath>
+				<field>ВнутреннийЗаказ</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Внутренний заказ</v8:content>
+					</v8:item>
+				</title>
+				<valueType>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:DocumentRef.ВнутреннийЗаказ</v8:Type>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Номенклатура</dataPath>
+				<field>Номенклатура</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Номенклатура</v8:content>
+					</v8:item>
+				</title>
+				<valueType>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:CatalogRef.Номенклатура</v8:Type>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЕдиницаИзмерения</dataPath>
+				<field>ЕдиницаИзмеренияПотребности</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Единица измерения</v8:content>
+					</v8:item>
+				</title>
+				<valueType>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:CatalogRef.КлассификаторЕдиницИзмерений</v8:Type>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Количество</dataPath>
+				<field>КоличествоЗакрытоеПотребности</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Количество</v8:content>
+					</v8:item>
+				</title>
+				<valueType>
+					<v8:TypeId>bd90d581-2f79-486e-95e6-b05a41eb5e92</v8:TypeId>
+				</valueType>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДополнительныеХарактеристикиНоменклатуры</dataPath>
+				<field>ДополнительныеХарактеристикиНоменклатуры</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Дополнительные характеристики номенклатуры</v8:content>
+					</v8:item>
+				</title>
+				<valueType>
+					<v8:Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:CatalogRef.ДополнительныеХарактеристикиНоменклатуры</v8:Type>
+				</valueType>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<objectName>ТЗЗакрытыеПотребности</objectName>
+		</item>
+		<item xsi:type="DataSetQuery">
+			<name>Запрос1</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВнутреннийЗаказ</dataPath>
+				<field>ВнутреннийЗаказ</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Внутренний заказ</v8:content>
+					</v8:item>
+				</title>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Номенклатура</dataPath>
+				<field>Номенклатура</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Номенклатура</v8:content>
+					</v8:item>
+				</title>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДополнительныеХарактеристикиНоменклатуры</dataPath>
+				<field>ДополнительныеХарактеристикиНоменклатуры</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЕдиницаИзмерения</dataPath>
+				<field>ЕдиницаИзмерения</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НоменклатураПоставщика</dataPath>
+				<field>НоменклатураПоставщика</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СчетКонтрагента</dataPath>
+				<field>СчетКонтрагента</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЕдиницаИзмеренияПоставщика</dataPath>
+				<field>ЕдиницаИзмеренияПоставщика</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Количество</dataPath>
+				<field>Количество</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Количество</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	ОстатокТовараПоСчетуОстатки.ВнутреннийЗаказ КАК ВнутреннийЗаказ,
+	ОстатокТовараПоСчетуОстатки.Номенклатура КАК Номенклатура,
+	ОстатокТовараПоСчетуОстатки.ДополнительныеХарактеристикиНоменклатуры КАК ДополнительныеХарактеристикиНоменклатуры,
+	ОстатокТовараПоСчетуОстатки.ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+	ЕСТЬNULL(ОстатокТовараПоСчетуОстатки.КоличествоЗакрытоеПотребностиОстаток, 0) КАК Количество
+ПОМЕСТИТЬ ВТ_Потребность
+ИЗ
+	РегистрНакопления.ОстатокТовараПоСчету.Остатки(, СчетКонтрагента = &amp;СчетКонтрагента) КАК ОстатокТовараПоСчетуОстатки
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_Потребность.ВнутреннийЗаказ КАК ВнутреннийЗаказ,
+	ВТ_Потребность.Номенклатура КАК Номенклатура,
+	ВТ_Потребность.ДополнительныеХарактеристикиНоменклатуры КАК ДополнительныеХарактеристикиНоменклатуры,
+	ВТ_Потребность.ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+	СУММА(ВТ_Потребность.Количество) КАК Количество
+ПОМЕСТИТЬ ВТ_ПотребностьИтоги
+ИЗ
+	ВТ_Потребность КАК ВТ_Потребность
+
+СГРУППИРОВАТЬ ПО
+	ВТ_Потребность.ЕдиницаИзмерения,
+	ВТ_Потребность.ДополнительныеХарактеристикиНоменклатуры,
+	ВТ_Потребность.ВнутреннийЗаказ,
+	ВТ_Потребность.Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ПотребностьИтоги.ВнутреннийЗаказ КАК ВнутреннийЗаказ,
+	ВТ_ПотребностьИтоги.Номенклатура КАК Номенклатура,
+	ВТ_ПотребностьИтоги.ДополнительныеХарактеристикиНоменклатуры КАК ДополнительныеХарактеристикиНоменклатуры,
+	ВТ_ПотребностьИтоги.ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+	-ВТ_ПотребностьИтоги.Количество КАК Количество
+ИЗ
+	ВТ_ПотребностьИтоги КАК ВТ_ПотребностьИтоги
+ГДЕ
+	ВТ_ПотребностьИтоги.Количество &lt;&gt; 0
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ПриходнаяНакладнаяЗакрытыеПотребности.ВнутреннийЗаказ,
+	ПриходнаяНакладнаяЗакрытыеПотребности.Номенклатура,
+	ПриходнаяНакладнаяЗакрытыеПотребности.ДополнительныеХарактеристикиНоменклатуры,
+	ПриходнаяНакладнаяЗакрытыеПотребности.ЕдиницаИзмеренияПотребности,
+	ЕСТЬNULL(-ПриходнаяНакладнаяЗакрытыеПотребности.КоличествоЗакрытоеПотребности, 0)
+ИЗ
+	Документ.ПриходнаяНакладная.ЗакрытыеПотребности КАК ПриходнаяНакладнаяЗакрытыеПотребности
+ГДЕ
+	ПриходнаяНакладнаяЗакрытыеПотребности.Ссылка = &amp;ПриходнаяНакладная
+	И ПриходнаяНакладнаяЗакрытыеПотребности.Ссылка.Проведен</query>
+			<useQueryGroupIfPossible>false</useQueryGroupIfPossible>
+		</item>
+	</dataSet>
+	<calculatedField>
+		<dataPath>Количество</dataPath>
+		<expression>-Количество</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Количество</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>СчетКонтрагента</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Счет контрагента</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ПриходнаяНакладная</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Приходная накладная</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.ПриходнаяНакладная</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВнутреннийЗаказ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЕдиницаИзмерения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Количество</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДополнительныеХарактеристикиНоменклатуры</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ВнутреннийЗаказ</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Номенклатура</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ДополнительныеХарактеристикиНоменклатуры</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ЕдиницаИзмерения</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Номенклатура.НоменклатурнаяГруппа</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Номенклатура.ПолноеНаименование</dcsset:left>
+					<dcsset:comparisonType>Contains</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:string"/>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Номенклатура.ПолноеНаименование</dcsset:left>
+					<dcsset:comparisonType>Contains</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:string"/>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

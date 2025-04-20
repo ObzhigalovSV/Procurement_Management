@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d77cf36-1e39-444d-8586-1cee7e798663">
+  <producedTypes>
+    <selectionType typeId="9ea78d1c-b8c7-42b0-aedb-1eeee4b90a04" valueTypeId="c0a68a0e-9a6a-4038-9986-080a3d43edf9"/>
+    <listType typeId="ab002e7b-ad54-4979-979f-91b2a0dd2ae8" valueTypeId="0ede20c5-4957-406a-bc3f-d7effd8adc76"/>
+    <managerType typeId="96c0dd20-13cc-4e9d-a32d-2fb61091d7d4" valueTypeId="c251d95f-9e31-4e29-a152-7e4889ca1ea5"/>
+    <recordSetType typeId="62558dbd-44a2-4c3d-b028-3c6ea06e1c4e" valueTypeId="7f9ec6d2-1a40-47ff-9f8f-e8e26aee3f98"/>
+    <recordKeyType typeId="e0797fd9-cc85-4ec4-95b7-9d5e6d081973" valueTypeId="f61c96b5-060e-4e8b-b9d4-7a41b4b29fdb"/>
+    <recordType typeId="52083f87-1a18-423d-8a3f-d1a2855575f5" valueTypeId="94eaff19-2883-4822-818c-d8cbc485c4bc"/>
+    <recordManagerType typeId="dc81846d-f2d4-4b4d-85d0-2005f43fd28b" valueTypeId="06801443-764b-45d4-8202-a5f173383a01"/>
+  </producedTypes>
+  <name>РуководителиПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Руководители проектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.РуководителиПроектов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.РуководителиПроектов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Куратор объекта</value>
+  </recordPresentation>
+  <resources uuid="a36499a2-7eff-48bd-b2e2-ebd05bb28e8b">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d28d379e-f163-4734-9202-8279c1df4323">
+    <name>РабочаяДокументацияИлиОбъектСтроительства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочая документация или объект строительства</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочаяДокументация</types>
+      <types>CatalogRef.ОбъектыСтроительства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="720c1327-c243-4b67-b0a4-215b3e432ada">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="866141e4-6494-4619-a3f5-ba68fba8a7ea">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

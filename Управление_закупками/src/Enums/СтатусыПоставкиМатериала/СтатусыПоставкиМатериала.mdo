@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca965fe2-8713-4c1e-b642-2d367e0df5cb">
+  <producedTypes>
+    <refType typeId="2490392f-592c-430b-8d82-e3042f5364ac" valueTypeId="35b57f38-68ff-4b9e-a5a4-dfb27ed7960b"/>
+    <listType typeId="583f2ba3-c97f-4b44-a7d5-a496f3c51eb4" valueTypeId="6a0a85d6-e6da-4c54-bbf9-d44ccd5250cd"/>
+    <managerType typeId="0e2fabc7-adaa-4a98-94b6-dde43d7c1455" valueTypeId="3cdd9585-d6b3-49a5-8f34-8b9124202e0b"/>
+  </producedTypes>
+  <name>СтатусыПоставкиМатериала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы поставки материала</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0afda72b-49f7-465a-ae86-549f29e7b3fd">
+    <name>НеЗаказано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не заказано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a14bad13-0341-439f-9599-c09cdbee0980">
+    <name>ПоставленоНаСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставлено на склад</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

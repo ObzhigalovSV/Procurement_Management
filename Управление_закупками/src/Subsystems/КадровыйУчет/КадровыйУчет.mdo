@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65f682ed-57e3-4bbc-bb21-89cd4d4a4091">
+  <name>КадровыйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделЗарплата</picture>
+  </picture>
+  <subsystems>Справочники</subsystems>
+</mdclass:Subsystem>

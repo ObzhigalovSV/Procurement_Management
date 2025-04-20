@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80e3db2e-371e-4527-bf82-23658ed39a8c">
+  <name>ЗаявкиДляОМТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявки для ОМТС</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВнутреннийЗаказ</content>
+  <parentSubsystem>Subsystem.Планирование</parentSubsystem>
+</mdclass:Subsystem>

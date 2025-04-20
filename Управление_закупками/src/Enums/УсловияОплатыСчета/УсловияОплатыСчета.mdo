@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0777d8c3-b636-40dd-ad20-0d1485e1efee">
+  <producedTypes>
+    <refType typeId="3432b53d-d9a9-43dd-b272-948e6adc5c68" valueTypeId="c8984355-25b7-4cf1-b683-ae0be99d171a"/>
+    <listType typeId="d74b1ee2-4a6e-4779-8d99-9b1a685980cb" valueTypeId="83216c34-8d7c-4c6a-a563-0e9e557ad98e"/>
+    <managerType typeId="36e21863-2637-432a-95c1-1b38b66ea734" valueTypeId="7a55a360-aa9a-4c00-bc9f-23016932f83a"/>
+  </producedTypes>
+  <name>УсловияОплатыСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условия оплаты счета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8d9ba900-a5de-462b-a6f1-6354fbd43919">
+    <name>ПредоплатаЧастичная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоплата частичная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00f63b78-99a8-4c43-b35b-303ae505c73c">
+    <name>ПредоплатаПолная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоплата полная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bf3b6509-54d0-491d-8b76-e06facd4f35c">
+    <name>ОплатаПоУведомлениюОбОтгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата по уведомлению об отгрузке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d2e521c5-c1f6-4e96-837f-d2ca006578cb">
+    <name>ОтсрочкаПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсрочка платежа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

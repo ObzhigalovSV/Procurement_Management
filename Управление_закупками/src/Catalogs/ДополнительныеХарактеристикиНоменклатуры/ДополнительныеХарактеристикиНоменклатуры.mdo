@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b72377a8-57f3-409b-90eb-b73cd160183a">
+  <producedTypes>
+    <objectType typeId="a330e63a-0a7d-4414-b0c7-de8ab4455157" valueTypeId="d7252c58-7446-40c1-92cd-ae7bbb8a23ab"/>
+    <refType typeId="09e3289a-53e0-4679-b5a2-51ac73f4da9e" valueTypeId="1610eb44-58df-4ae7-ab65-53e05164157d"/>
+    <selectionType typeId="0388b08b-0373-44d8-882c-919d27eed1e1" valueTypeId="f5973eee-c99c-4f7b-a8d6-eb4d695cfbc3"/>
+    <listType typeId="7196fb0c-16c0-43e9-bfcc-4ab9cdf66b34" valueTypeId="7bb4d4ac-8a15-494e-b197-dd2aeb118bfb"/>
+    <managerType typeId="d401d57c-cc42-4c7d-a77d-18549b1be9b3" valueTypeId="822b0002-35b4-4538-a594-b0badf6d5149"/>
+  </producedTypes>
+  <name>ДополнительныеХарактеристикиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные характеристики номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДополнительныеХарактеристикиНоменклатуры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ДополнительныеХарактеристикиНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ДополнительныеХарактеристикиНоменклатуры.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="c15c4129-005b-424c-85c0-b46dc217f6d3">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные характеристики номенклатуры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>440</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a799bfc4-ff0b-40cc-af71-2101967d4f73">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="91daddb4-dd38-4d46-8ed8-c8bb58896de3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c58ac3bb-b50f-49f4-ac2a-3e2e409d76cb">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

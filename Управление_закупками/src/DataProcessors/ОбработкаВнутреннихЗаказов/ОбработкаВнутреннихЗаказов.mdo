@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c32046c-3f3d-408f-b4b4-2f48f2711043">
+  <producedTypes>
+    <objectType typeId="e8e53470-4c7a-4524-8d09-8fc938fe9b24" valueTypeId="d30892d5-311d-48df-bf0f-29579670ae98"/>
+    <managerType typeId="a123574a-1886-4fd7-9adb-2c32e548ddad" valueTypeId="cd9caef4-e4f2-457e-9776-8b60bdc027fe"/>
+  </producedTypes>
+  <name>ОбработкаВнутреннихЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка внутренних заказов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбработкаВнутреннихЗаказов.Form.Форма</defaultForm>
+  <forms uuid="1617d1ca-44ec-4bc9-a92f-917455b8010e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3612d499-4899-49e7-8c39-795c675d7fa4">
+    <name>ФормаВыбораЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора значений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

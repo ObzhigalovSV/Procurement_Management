@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="624fd52c-a757-436e-8239-a32e55bd6520">
+  <producedTypes>
+    <selectionType typeId="d28c2bdf-a218-4dce-91c1-f5c72b3aab61" valueTypeId="2961fef4-961b-4d0f-b91d-dbef47989fee"/>
+    <listType typeId="e7974340-0290-4300-bc76-648eae51c5a0" valueTypeId="f374f8ae-a5a3-4fd4-932b-f450a9de3ba8"/>
+    <managerType typeId="66978494-95eb-43a6-a41f-4a8bf1c9dfe0" valueTypeId="8690b739-d803-48c2-91ec-16af982b3ad1"/>
+    <recordSetType typeId="68ac71f7-df23-41db-9db4-701cdefb000e" valueTypeId="83393d81-4d60-4441-a506-ca0af1b81fd7"/>
+    <recordKeyType typeId="7cb97bb4-258c-4088-bc34-c2049b19690e" valueTypeId="5827e75d-869e-4f20-a139-d5fc27318944"/>
+    <recordType typeId="99c60f23-8781-4871-9330-db1061024fdd" valueTypeId="c2654155-350b-40e8-b504-6e952a9425a6"/>
+    <recordManagerType typeId="3f4292a7-6c58-43af-9231-b182c8e3fa94" valueTypeId="59e2180b-b568-484d-aa61-88d8f44950eb"/>
+  </producedTypes>
+  <name>ЛинейныйИсполнительВнутреннегоЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Линейный исполнитель внутреннего заказа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ce7df2cc-6b07-4718-af93-80e7f6f9bb52">
+    <name>ЛинейныйИсполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейный исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b28ac4f3-0b23-453d-a095-1de8a29bf32a">
+    <name>ВнутреннийЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВнутреннийЗаказ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
